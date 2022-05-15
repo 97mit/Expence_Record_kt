@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.stimednp.roommvvm.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_cart_list"
+        android:name="com.stimednp.roommvvm.ui.shopping.CartListFragment"
+        android:label="@string/menu_shopping_cart"
+        tools:layout="@layout/fragment_cart_list" >
+        <action
+            android:id="@+id/action_nav_cart_list_to_fragment_cart_items"
+            app:destination="@id/fragment_cart_items" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_cart_item_list"
+        android:name="com.stimednp.roommvvm.ui.cartItems.CartItemsList"
+        android:label="@string/menu_shopping_cart_items"
+        tools:layout="@layout/fragment_cart_items_list" >
+        <action
+            android:id="@+id/action_nav_cart_item_list_to_fragment_cart_items"
+            app:destination="@id/fragment_cart_items" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_cart_items"
+        android:name="com.stimednp.roommvvm.ui.Cart.CartFragment"
+        android:label="@string/menu_shopping_cart_items"
+        tools:layout="@layout/fragment_cart" >
+        <action
+            android:id="@+id/action_fragment_cart_items_to_nav_cart_list"
+            app:destination="@id/nav_cart_list" />
+        <action
+            android:id="@+id/action_fragment_cart_items_to_nav_cart_item_list"
+            app:destination="@id/nav_cart_item_list" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.stimednp.roommvvm.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+</navigation>

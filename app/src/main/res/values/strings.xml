@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Room MVVM</string>
+    <string name="add_mess">Add Mess</string>
+    <string name="new_cart">New Cart</string>
+    <string name="add_item">Add Item</string>
+    <string name="add_menu">Add Menu</string>
+    <string name="title">Title</string>
+    <string name="choose_priority">Choose Priority :</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="edit_meals">Edit Meals</string>
+    <string name="add_new_items">Add new items</string>
+    <string name="description">Description</string>
+    <string name="clear_note">Clear Items</string>
+    <string name="success_delete">Success delete items</string>
+    <string name="success_clear">Success clear items</string>
+    <string name="sure_clear_items">Are you sure, you want to delete all items?</string>
+    <string name="form_empty">Some data is empty, checked your form</string>
+    <string name="update">Update</string>
+    <string name="success_save">Success save note</string>
+    <string name="success_update">Success update note</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_shopping_cart">ShoppingCart</string>
+    <string name="menu_shopping_cart_items">Items</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_mess">MessActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_month_summary">Month Summary</string>
+    <string name="title_edit_meal">Edit Meal</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+    <string name="rupee">\u20B9</string>
+    <string-array name="month_array">
+        <item></item>
+        <item>JAN</item>
+        <item>FEB</item>
+        <item>MAR</item>
+        <item>APR</item>
+        <item>MAY</item>
+        <item>JUN</item>
+        <item>JUL</item>
+        <item>AUG</item>
+        <item>SEP</item>
+        <item>OCT</item>
+        <item>NOV</item>
+        <item>DEC</item>
+    </string-array>
+    <string-array name="units_array">
+    <item>Unit</item>
+    <item>Kg</item>
+    <item>Grams</item>
+    <item>Ltr</item>
+</string-array>
+</resources>
