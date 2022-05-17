@@ -12,6 +12,8 @@
         <entry key="../../../../../../layout/custom_preview.xml" value="0.20572916666666666" />
         <entry key="app/src/main/res/drawable/badge_shape.xml" value="0.181" />
         <entry key="app/src/main/res/drawable/bg_gradient.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_baseline_broken_image.xml" value="0.172" />
+        <entry key="app/src/main/res/drawable/ic_baseline_hourglass.xml" value="0.172" />
         <entry key="app/src/main/res/drawable/ic_gerald_g_fast_food_lunch_dinner_ff_menu_1.xml" value="0.181" />
         <entry key="app/src/main/res/drawable/ic_menu_camera.xml" value="0.186" />
         <entry key="app/src/main/res/drawable/ic_menu_slideshow.xml" value="0.1" />
@@ -24,6 +26,7 @@
         <entry key="app/src/main/res/layout/activity_meals.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_menu_items_list.xml" value="0.25" />
         <entry key="app/src/main/res/layout/activity_mess.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/adapter_news_item.xml" value="0.2758152173913043" />
         <entry key="app/src/main/res/layout/app_bar_main.xml" value="0.1" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.2390625" />
         <entry key="app/src/main/res/layout/edit_meal_dialog.xml" value="0.17760416666666667" />
@@ -38,6 +41,7 @@
         <entry key="app/src/main/res/layout/fragment_month_summery.xml" value="0.196875" />
         <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.3201542912246866" />
         <entry key="app/src/main/res/layout/fragment_shopping_list.xml" value="0.21041666666666667" />
+        <entry key="app/src/main/res/layout/fragment_slideshow.xml" value="0.2758152173913043" />
         <entry key="app/src/main/res/layout/fragment_tab_list.xml" value="0.1" />
         <entry key="app/src/main/res/layout/item_bill_details_list.xml" value="0.17760416666666667" />
         <entry key="app/src/main/res/layout/item_cart_item_list.xml" value="0.18" />
