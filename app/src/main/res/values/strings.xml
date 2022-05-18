@@ -43,6 +43,7 @@
     <string name="nav_open">Open</string>
     <string name="nav_close">Close</string>
     <string name="rupee">\u20B9</string>
+    <string name="token">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</string>
     <string-array name="month_array">
         <item></item>
         <item>JAN</item>
